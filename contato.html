@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em contato</title>
+</head>
+<body>
+    <header>
+        <h1>&#x2728; Entre em contato comigo! &#x2728;</h1>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="musicas.html">Músicas para Programação</a> |
+            <a href="aulas_gratis.html">Aulas Grátis</a> |
+            <a href="planos.html">Planos</a> |
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <fieldset>
+            <legend><h2>Contato</h2></legend>
+            <form action="#">
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" autofocus required> <br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" id="email" required> <br>
+
+                <label for="sexo">Sexo: </label>
+                <input type="radio" name="sexo" id="s1" required> <label for="s1">Masculino</label>
+                <input type="radio" name="sexo" id="s2" required> <label for="s2">Feminino</label> <br>
+
+                <label for="conheceu">Por onde conheceu o site?</label> <br>
+                <input type="radio" name="conheceu" id="c1" required> <label for="c1">Amigos / Colegas</label> <br>
+                <input type="radio" name="conheceu" id="c2" required> <label for="c2">Faculdade</label> <br>
+                <input type="radio" name="conheceu" id="c3" required> <label for="c3">Redes sociais</label> <br>
+                <input type="radio" name="conheceu" id="c4" required> <label for="c4">Outro</label> <br>
+
+                <label for="assunto">Assunto</label> <br>
+                <textarea name="assunto" id="assunto" cols="40" rows="7"></textarea> <br>
+
+                <button>Enviar</button>
+            </form>
+        </fieldset>
+    </main>
+</body>
+</html>
